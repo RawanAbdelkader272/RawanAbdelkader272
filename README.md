@@ -1,50 +1,44 @@
 <div align="center">
 
-<h1 align="center">Hi, I'm Rawan Abdelkader 👋</h1>
-### Electronics and Communications Engineer | Digital IC Design & Verification 
-**E-JUST Class of Feb 2027**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Senior_ECE_Student-blue?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/Focus-RTL_&_Verification-gold?style=flat-square" alt="Focus">
-  <img src="https://img.shields.io/badge/University-E--JUST-red?style=flat-square" alt="University">
-</p>
+# Rawan Mansour Abdelkader
+**Digital IC Design & Verification Engineer**
+*E-JUST | Electronics and Communications Engineering | 2027*
 
 ---
+
+**Bridging the gap between computer architecture and silicon implementation.** Specialized in developing high-performance RTL and scalable verification environments for complex digital systems.
+
+[LinkedIn](https://www.linkedin.com/in/rawan-abdelkader-28a8092b2) • [Email](mailto:rawan.abdelkader2722@gmail.com)
 
 </div>
 
+### 🧬 Professional Expertise
+
+* **Design & Architecture:** Focusing on **RTL development** with a strong foundation in **Computer Organization**. Interested in optimizing data-paths for specialized hardware and **AI accelerators**.
+* **Verification:** Building robust, coverage-driven environments using **UVM** and **SystemVerilog**, with a shift towards modern Python-based flows using **cocotb**.
+* **Hardware Efficiency:** Dedicated to implementing hardware-software co-designs that prioritize throughput and resource optimization.
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### 🛠️ Technical Toolbox
 
-#### 🏗️ Hardware Design & Verification
-![Verilog](https://img.shields.io/badge/Verilog-%23005581.svg?style=for-the-badge&logo=cpu&logoColor=white)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-%23182149.svg?style=for-the-badge&logo=micro-chip&logoColor=white)
-![UVM](https://img.shields.io/badge/UVM-Verification-blueviolet?style=for-the-badge)
-![cocotb](https://img.shields.io/badge/cocotb-Python--Based-green?style=for-the-badge)
-
-#### 💻 Programming & Scripting
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-%23ED1C24.svg?style=for-the-badge&logo=mathworks&logoColor=white)
-
-#### ⚙️ Design & Simulation Tools
-![QuestaSim](https://img.shields.io/badge/QuestaSim-Siemens-blue?style=for-the-badge)
-![Quartus Prime](https://img.shields.io/badge/Quartus_Prime-Intel-blue?style=for-the-badge)
-![Vivado](https://img.shields.io/badge/Vivado-Xilinx-orange?style=for-the-badge)
+| Domain | Proficiency |
+| :--- | :--- |
+| **HDLs** | `SystemVerilog` • `Verilog` |
+| **Verification** | `UVM` • `cocotb` • `Functional Verification` |
+| **Architectural Tools** | `QuestaSim` • `Vivado` • `Quartus Prime` |
+| **Languages & Scripting** | `Python` • `C++` • `MATLAB` |
 
 ---
 
-### 📈 GitHub Stats & Insights
+### 📊 Engineering Activity
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&langs_count=6"/>
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=RawanAbdelkader272&show_icons=true&theme=transparent&title_color=0077B5&icon_color=0077B5&text_color=333&border_color=e4e2e2" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RawanAbdelkader272&layout=compact&theme=transparent&title_color=0077B5&text_color=333&border_color=e4e2e2" />
 </p>
 
 ---
 
-### 📬 Connect with me
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rawan-abdelkader-28a8092b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](rawan.abdelkader2722@gmail.com)
+<p align="center">
+  <i>"Committed to the pursuit of hardware excellence and zero-defect silicon."</i>
+</p>
