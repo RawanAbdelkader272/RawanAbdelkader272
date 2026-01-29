@@ -1,12 +1,8 @@
-Here's a **fresh, creative README** inspired by silicon engineers at NVIDIA, AMD, and Analog Devices — designed like a **chip datasheet** with terminal aesthetics. Copy and paste this *exactly* as raw markdown:
 
-```markdown
-<!--
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  RAWAN ABDELKADER • DIGITAL IC DESIGN & VERIFICATION ENGINEER                │
 │  GP Sponsored by Analog Devices • E-JUST S'27                                │
 └──────────────────────────────────────────────────────────────────────────────┘
--->
 
 <pre>
 <span style="color:#00FF00">┌──────────────────────────────────────────────────────────────────────────────┐</span>
