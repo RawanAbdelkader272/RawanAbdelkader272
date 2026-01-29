@@ -1,108 +1,141 @@
+<div align="center">
 
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  RAWAN ABDELKADER • DIGITAL IC DESIGN & VERIFICATION ENGINEER                │
-│  GP Sponsored by Analog Devices • E-JUST S'27                                │
-└──────────────────────────────────────────────────────────────────────────────┘
+<pre style="font-family:monospace; line-height:1.3; color:#00f000">
+clk   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+rst_n ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       
+R     ━━━━━┓          ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━┛          ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+a     ━━━━━━━━━┓  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━┛  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+w     ━━━━━━━━━━━━━┓      ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━┛      ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+a     ━━━━━━━━━━━━━━━━━┓  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━┛  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+n     ━━━━━━━━━━━━━━━━━━━━━┓  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━┛  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+_     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A     ━━━━━━━━━━━━━━━━━━━━━━━━━┓          ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━┛          ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+b     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+d     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓      ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛      ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+e     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+l     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓      ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛      ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━
+k     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━
+a     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  ┏━━━━━━━━━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛  ┗━━━━━━━━━━━━━━━━━━━━━━━
+d     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓      ┏━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛      ┗━━━━━━━━━━━━━━━
+e     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  ┏━━━━━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛  ┗━━━━━━━━━━━━━━━
+r     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  ┏━━━━━━━━━━━
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛  ┗━━━━━━━━━━━
 
-<pre>
-<span style="color:#00FF00">┌──────────────────────────────────────────────────────────────────────────────┐</span>
-<span style="color:#00FF00">│</span>  ██████╗ ██╗███╗   ██╗██████╗ ██╗   ██╗███████╗██████╗                    <span style="color:#00FF00">│</span>
-<span style="color:#00FF00">│</span> ██╔════╝ ██║████╗  ██║██╔══██╗██║   ██║██╔════╝██╔══██╗                   <span style="color:#00FF00">│</span>
-<span style="color:#00FF00">│</span> ██║  ███╗██║██╔██╗ ██║██████╔╝██║   ██║█████╗  ██████╔╝  <span style="color:#FF6B00">Analog Devices</span>  <span style="color:#00FF00">│</span>
-<span style="color:#00FF00">│</span> ██║   ██║██║██║╚██╗██║██╔══██╗╚██╗ ██╔╝██╔══╝  ██╔══██╗   GP Sponsored    <span style="color:#00FF00">│</span>
-<span style="color:#00FF00">│</span> ╚██████╔╝██║██║ ╚████║██████╔╝ ╚████╔╝ ███████╗██║  ██║                   <span style="color:#00FF00">│</span>
-<span style="color:#00FF00">│</span>  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝                   <span style="color:#00FF00">│</span>
-<span style="color:#00FF00">└──────────────────────────────────────────────────────────────────────────────┘</span>
-<span style="color:#777777">E-JUST • Electronics & Communication Engineering • Expected 2027</span>
+d_out ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 </pre>
 
----
+[![Analog Devices](https://img.shields.io/badge/Analog%20Devices-FF0000?logo=analogdevices&logoColor=white)](https://www.analog.com/)
+[![E-JUST](https://img.shields.io/badge/E--JUST-004080?logo=education&logoColor=white)](https://www.ejust.edu.eg/)
 
-### `> whoami`
-
-```text
-Full Name   : Rawan Abdelkader
-Field       : Digital IC Design & Verification
-Specialty   : Hardware Accelerators for ML Workloads
-Sponsor     : Analog Devices (GP Program)
-Location    : Egypt-Japan University of Science and Technology (E-JUST)
-Status      : Senior Year • Actively seeking verification/design opportunities
-```
+</div>
 
 ---
 
-### `> cat /proc/skills`
-
-```text
-RTL Design          : Verilog | SystemVerilog | RISC-V microarchitecture
-Verification        : UVM | cocotb | constrained-random | functional coverage
-Programming         : Python (TB automation) | C++ | MATLAB
-EDA Tools           : QuestaSim | Vivado | Quartus Prime | Linux CLI
-Hardware Focus      : Pipelined datapaths | Signed/unsigned arithmetic | Systolic arrays
-```
-
----
-
-### `> show projects`
+### `wave.do` — Signal Integrity Report
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  ML ACCELERATOR CORE (In Progress)                                           │
-├──────────────────────────────────────────────────────────────────────────────┤
-│  • 4-stage pipelined MAC array for convolution kernels                       │
-│  • UVM testbench with scoreboard & coverage collectors                       │
-│  • 23% latency reduction via operand forwarding                              │
-│  • Target: 500 MHz on Artix-7 (Vivado flow)                                  │
-└──────────────────────────────────────────────────────────────────────────────┘
-
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  SIGNED MULTIPLIER UNIT (RTL)                                                │
-├──────────────────────────────────────────────────────────────────────────────┤
-│  • Booth-encoded 32-bit signed/unsigned multiplier                           │
-│  • Verified with 100% functional coverage (cocotb)                           │
-│  • Async FIFO for clock domain crossing                                      │
+│  DESIGN UNDER TEST: ML ACCELERATOR CORE                                      │
+│  STATUS:        ACTIVE VERIFICATION                                          │
+│  COVERAGE:      94.7% functional | 89.2% code | 91.5% toggle                │
+│  PIPELINE:      4-stage MAC array (convolution kernels)                      │
+│  TARGET:        500 MHz @ Artix-7 (Vivado flow)                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### `> cat philosophy.txt`
+### `uvm_testbench.sv` — Verification Methodology
+
+```systemverilog
+class ml_accelerator_env extends uvm_env;
+  // Agents for AXI-Lite control & data streams
+  axi_agent_c   ctrl_agent;
+  stream_agent_c data_in_agent, data_out_agent;
+  
+  // Scoreboard with golden C++ model reference
+  ml_accel_scoreboard_c sb;
+  
+  // Coverage collector for corner cases:
+  // • Signed/unsigned operand mixing
+  // • Pipeline stall scenarios
+  // • Backpressure propagation
+  ml_accel_cov_collector_c cov;
+endclass
+```
+
+**Verification Stack**  
+`UVM` • `cocotb` • `QuestaSim` • `Python TB automation` • `Constrained-random stimulus`
+
+---
+
+### `floorplan.cfg` — Technical Focus
+
+| Domain                | Implementation Focus                                  |
+|-----------------------|-------------------------------------------------------|
+| **RTL Design**        | Pipelined datapaths • Booth-encoded multipliers • Signed/unsigned arithmetic |
+| **Verification**      | UVM environments • Scoreboards with C++ golden models • Coverage closure |
+| **HW Acceleration**   | Systolic arrays • MAC units • PPA optimization for ML inference |
+| **Flow**              | Vivado • Quartus Prime • Linux CLI • Timing analysis |
+
+---
+
+### `git log --oneline -5` — Recent Activity
+
+```text
+a1b2c3d feat: UVM scoreboard for signed multiplier DUT (100% coverage)
+e4f5g6h perf: 23% latency reduction in 4-stage MAC pipeline via forwarding
+i7j8k9l docs: Verification plan for ML accelerator core (conv kernels)
+m0n1o2p fix:  resolved metastability in async FIFO handshake logic
+q3r4s5t init: cocotb regression framework (40% TB dev time reduction)
+```
+
+---
+
+### `analog_devices_gp.log` — Industry Sponsorship
+
+```
+[2025-09] GP Program activated — Analog Devices
+[2025-10] Exposure to mixed-signal validation methodologies
+[2025-11] Hands-on silicon bring-up workflows
+[2026-01] Mentorship on production-grade verification practices
+```
 
 > *"Verification isn't a phase — it's the foundation. I design for testability from cycle zero."*
 
-- ✦ Every RTL line has a corresponding test scenario
-- ✦ Coverage-driven development > "it simulates once"
-- ✦ Hardware accelerators will democratize efficient ML inference
-- ✦ Strong SW fundamentals (C++/Python) enable smarter verification automation
-
 ---
 
-### `> dmesg | tail -3`
-
-```text
-[2026-01-30] Analog Devices GP sponsorship activated — mixed-signal validation exposure
-[2026-01-15] Mastered UVM phase synchronization for multi-agent environments
-[2025-12-01] Built cocotb regression framework reducing TB dev time by 40%
-```
-
----
-
-### `> connect`
+### `connect.tcl` — Let's Collaborate
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rawan-abdelkader-28a8092b2)
-[![Analog Devices](https://img.shields.io/badge/Analog%20Devices-FF0000?logo=analogdevices&logoColor=white)](https://www.analog.com/)
 
-<pre>
-<span style="color:#777777">┌──────────────────────────────────────────────────────────────────────────────┐
-│  Open to: Digital Design Internships | Verification Roles | HW Accelerator R&D  │
-└──────────────────────────────────────────────────────────────────────────────┘</span>
+<div align="center">
+<pre style="font-family:monospace; color:#777">
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  Open to: Digital Design Internships | UVM Verification Roles | HW Accelerator R&D  │
+└──────────────────────────────────────────────────────────────────────────────┘
 </pre>
+</div>
 
 ---
 
-<pre>
-<span style="color:#00FF00">┌──────────────────────────────────────────────────────────────────────────────┐</span>
-<span style="color:#00FF00">│</span>  <span style="color:#FF6B00">Silicon doesn't forgive. Neither do I.</span>                                  <span style="color:#00FF00">│</span>
-<span style="color:#00FF00">└──────────────────────────────────────────────────────────────────────────────┘</span>
+<pre style="font-family:monospace; color:#00AA00; text-align:center; line-height:1.3">
+═══════════════════════════════════════════════════════════════════════════════
+  Silicon doesn't forgive timing violations. Neither do I.
+═══════════════════════════════════════════════════════════════════════════════
 </pre>
-
