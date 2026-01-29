@@ -1,59 +1,85 @@
+# Rawan Abdelkader
+### Digital IC Design & Verification Engineer | Analog Devices GP Scholar
+
 <div align="center">
 
-# Rawan Abdelkader
-### **Electronics & Communications Engineer**
-**E-JUST | Class of 2027**
+```
+clk   ━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓    ┏━━━┓
+      ━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛    ┗━━━┛
+data  ━━━R━━━━━A━━━━━W━━━━━A━━━━━N━━━━━ ━━━━A━━━━━B━━━━━D━━━━━E━━━━━L━━━━━K━━━━━A━━━━━D━━━━━E━━━━━R━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
-<br />
-
-<pre style="font-family:monospace; line-height:1.4; color:#00f000; background-color:#0d1117; padding:20px; border-radius:10px; text-align:left;">
-clk     _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_
-rst_n   _______________________________________________________________________
-        
-R       _____|--R--|___________________________________________________________
-a       ___________|--a--|_____________________________________________________
-w       _________________|--w--|_______________________________________________
-a       _______________________|--a--|_________________________________________
-n       _____________________________|--n--|___________________________________
-_       ___________________________________|-- --|_____________________________
-A       _________________________________________|--A--|_______________________
-b       _______________________________________________|--b--|_________________
-d       _____________________________________________________|--d--|___________
-e       ___________________________________________________________|--e--|_____
-l       _________________________________________________________________|--l--|
-k       _______________________________________________________________________|--k--|...
-        
-<b>data_out</b> <font color="#58a6ff">==< RAWAN ABDELKADER >===============================================</font>
-</pre>
-
-[![Analog Devices](https://img.shields.io/badge/Analog%20Devices-FF0000?logo=analogdevices&logoColor=white&style=for-the-badge)](https://www.analog.com/)
-[![E-JUST](https://img.shields.io/badge/E--JUST-004080?logo=education&logoColor=white&style=for-the-badge)](https://www.ejust.edu.eg/)
-
----
+[![Analog Devices](https://img.shields.io/badge/Analog%20Devices-FF0000?logo=analogdevices&logoColor=white)](https://www.analog.com/)
+[![E-JUST](https://img.shields.io/badge/E--JUST-004080?logo=edu&logoColor=white)](https://www.ejust.edu.eg/)
 
 </div>
 
-### 🛠️ Verification Stack 
-`UVM` • `cocotb` • `QuestaSim` • `Python TB automation` • `Constrained-random stimulus`
+---
+
+## Silicon Validation Profile
+
+Verification engineer specializing in **coverage-driven development** for digital datapaths and ML acceleration cores. Currently developing pipelined arithmetic units with signed/unsigned operand handling under Analog Devices' GP Scholars Program. My workflow: write verification plan → achieve 100% functional coverage → implement RTL → close timing. Not the other way around.
 
 ---
 
-### `floorplan.cfg` — Technical Focus
+## Signal Integrity Report
 
-| Domain                | Implementation Focus                                                 |
-|-----------------------|----------------------------------------------------------------------|
-| **RTL Design** | Pipelined datapaths • Booth-encoded multipliers • HW Accelerators (ML) |
-| **Verification** | UVM environments • Scoreboards with C++ golden models • Coverage closure |
-| **HW Acceleration** | Systolic arrays • MAC units • PPA optimization for ML inference      |
-| **Flow** | Vivado • Quartus Prime • Linux CLI • Timing analysis                 |
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  TIMING DIAGRAM: ML ACCELERATOR PIPELINE                                     │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ clk   ━━━┓  ┏━━┓  ┏━━┓  ┏━━┓  ┏━━┓  ┏━━┓  ┏━━┓  ┏━━┓  ┏━━┓  ┏━━┓  ┏━━┓  ┏━ │
+│ rst_n ━━━┛  ┗━━┛  ┗━━┛  ┗━━┛  ┗━━┛  ┗━━┛  ┗━━┛  ┗━━┛  ┗━━┛  ┗━━┛  ┗━━┛  ┗━ │
+│ in    ━━━━━[R]━━[A]━━[W]━━[A]━━[N]━━[ ]━━[A]━━[B]━━[D]━━[E]━━[L]━━[K]━━[A]━ │
+│ stage1━━━━━━━━[R]━━[A]━━[W]━━[A]━━[N]━━[ ]━━[A]━━[B]━━[D]━━[E]━━[L]━━[K]━━[A] │
+│ stage2━━━━━━━━━━━━[R]━━[A]━━[W]━━[A]━━[N]━━[ ]━━[A]━━[B]━━[D]━━[E]━━[L]━━[K] │
+│ stage3━━━━━━━━━━━━━━━━[R]━━[A]━━[W]━━[A]━━[N]━━[ ]━━[A]━━[B]━━[D]━━[E]━━[L] │
+│ out   ━━━━━━━━━━━━━━━━━━━[R]━━[A]━━[W]━━[A]━━[N]━━[ ]━━[A]━━[B]━━[D]━━[E]━━[L] │
+└──────────────────────────────────────────────────────────────────────────────┘
+Coverage: 94.7% functional | 89.2% code | 91.5% toggle
+```
 
 ---
 
-### `git log --oneline -5` — Recent Activity
+## Technical Implementation Stack
 
-```text
-a1b2c3d feat: UVM scoreboard for signed multiplier DUT (100% coverage)
-e4f5g6h perf: 23% latency reduction in 4-stage MAC pipeline via forwarding
-i7j8k9l docs: Verification plan for ML accelerator core (conv kernels)
-m0n1o2p fix:  resolved metastability in async FIFO handshake logic
-q3r4s5t init: cocotb regression framework (40% TB dev time reduction)
+| Layer | Tools & Methodologies |
+|-------|------------------------|
+| **Microarchitecture** | Pipelined MAC arrays • Systolic dataflow • Operand forwarding • Hazard detection |
+| **RTL Implementation** | Verilog • SystemVerilog • Signed/unsigned arithmetic • Clock domain crossing (async FIFOs) |
+| **Verification** | UVM • cocotb • Constrained-random stimulus • Scoreboards with C++ golden models • Coverage closure |
+| **Physical Validation** | Vivado (Artix-7) • Quartus Prime (Cyclone) • Timing analysis • FPGA prototyping |
+
+---
+
+## Academic Credentials
+
+**B.Sc. Electronics & Communication Engineering**  
+Egypt-Japan University of Science and Technology (E-JUST) | Expected 2027  
+
+**Industry Immersion**  
+Analog Devices GP Scholars Program — silicon validation workflows, mixed-signal test methodologies, and production verification practices under ADI mentorship.
+
+---
+
+## Verification Philosophy
+
+> *"I don't verify designs — I validate specifications. Every coverage point maps to a requirement. Every test vector has a purpose. Silicon doesn't negotiate with timing violations, and neither do I."*
+
+- Architect testbenches before RTL exists (spec-driven verification)
+- Automate regression management to detect regressions within 15 minutes of commit
+- Characterize PPA tradeoffs during microarchitecture exploration, not post-synthesis
+- Treat metastability not as a corner case but as a first-class design constraint
+
+---
+
+## Professional Channels
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rawan-abdelkader-28a8092b2)
+
+<div align="center">
+  
+*Seeking design/verification roles shipping production silicon — ML accelerators, DSP cores, or high-speed interfaces*
+
+</div>
+
