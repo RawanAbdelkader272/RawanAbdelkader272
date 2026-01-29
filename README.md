@@ -1,54 +1,117 @@
-### 👋 Hi, I'm Rawan Abdelkader
 
-**Electronics & Communication Engineer @ E-JUST '27**  
-Digital IC Design & Verification Enthusiast | Hardware Accelerators for ML
+<!--
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  Rawan Abdelkader  |  Digital IC Design & Verification Engineer
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+-->
 
----
+<div align="center">
 
-### 🔬 What I'm Working On
-- 🎓 Senior-year graduation project **sponsored by Analog Devices** focused on digital IC design
-- 💡 Building efficient hardware accelerators for machine learning workloads
-- 🔍 Deepening my expertise in formal verification and UVM-based testbenches
+### Digital IC Design & Verification Engineer
+  
+**GP Sponsored by Analog Devices** • E-JUST S'27 • Senior Year
+  
+```
+   _______                     ___________    _____      _____ 
+  |   _   |.--.--.-----.-----|   |   |   |  |   | |.--.|   __|
+  |.  |___||  |  |  -__|     |       |   |__| | | ||  ||__   |
+  |.  |   ||_____|_____|__|__|__|_|__|______|___|_||__||_____|
+  |:  1   |
+  |::.. . |
+  `-------'
+  Hardware doesn't lie. Verification proves it.
+```
 
----
-
-### 💻 Technical Toolkit
-
-#### Hardware Design & Verification
-![Verilog](https://img.shields.io/badge/Verilog-3486F5?logo=verilog&logoColor=white)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-00ADEF?logo=systemverilog&logoColor=white)
-![UVM](https://img.shields.io/badge/UVM-FF6B00?logo=uvm&logoColor=white)
-![cocotb](https://img.shields.io/badge/cocotb-337AB7?logo=python&logoColor=white)
-
-#### Programming & Simulation
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-ED8B00?logo=mathworks&logoColor=white)
-![QuestaSim](https://img.shields.io/badge/QuestaSim-0071C5?logo=siemens&logoColor=white)
-![Vivado](https://img.shields.io/badge/Vivado-005CAF?logo=xilinx&logoColor=white)
-![Quartus](https://img.shields.io/badge/Quartus-0071C5?logo=intel&logoColor=white)
-
-#### Environment
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+</div>
 
 ---
 
-### 🎯 Focus Areas
-```text
-Digital IC Design → Verification → Hardware Acceleration → ML Deployment
+### 🔍 What I Build
+
+- **Digital ICs** verified with UVM/cocotb testbenches
+- **Hardware accelerators** for ML inference workloads
+- **Pipelined datapaths** with signed/unsigned arithmetic units
+- **RTL-to-GDSII** flows using industry-standard EDA tools
 
 ---
 
-## 📬 Connectivity
-<p align="center">
-  <a href="https://www.linkedin.com/in/rawan-abdelkader-28a8092b2">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:rawan.abdelkader2722@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
-  </a>
-</p>
+### ⚙️ Technical Stack
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=007acc&height=60&section=footer" width="100%" />
-</p>
+| Category       | Tools & Languages                                  |
+|----------------|----------------------------------------------------|
+| **RTL**        | Verilog • SystemVerilog • RISC-V ISA              |
+| **Verification**| UVM • cocotb • constrained-random • coverage-driven |
+| **Languages**  | Python (verification automation) • C++ • MATLAB   |
+| **EDA Tools**  | QuestaSim • Vivado • Quartus Prime • Linux CLI    |
+| **Flow**       | Synthesis • Timing Analysis • FPGA Prototyping    |
+
+---
+
+### 🧪 Current Focus
+
+```systemverilog
+// Target: ML accelerator microarchitecture
+always_ff @(posedge clk) begin
+  if (rst_n == 1'b0) begin
+    state <= IDLE;
+    acc_result <= '0;
+  end else begin
+    case (state)
+      COMPUTE:  acc_result <= mac(a, b, acc_result);
+      TRANSFER: dma_write(acc_result);
+      default:  state <= IDLE;
+    endcase
+  end
+end
+```
+
+- Optimizing systolic arrays for convolution kernels
+- Building UVM environments with scoreboards & coverage collectors
+- Characterizing power/area/performance tradeoffs in accelerator designs
+
+---
+
+### 🎓 Academic Background
+
+**Electronics & Communication Engineering**  
+Egypt-Japan University of Science and Technology (E-JUST)  
+Expected Graduation: 2027  
+
+**Industry Sponsorship**  
+🎓 GP Program — Analog Devices  
+*(Hands-on exposure to mixed-signal verification methodologies and silicon validation flows)*
+
+---
+
+### 💡 Engineering Philosophy
+
+> *"A chip is only as good as its verification. I don't just write RTL prove it works under every corner case."*
+
+- Strong C++/Python fundamentals → efficient testbench automation
+- Obsessed with coverage closure and bug hunting
+- Believe hardware accelerators are the future of efficient ML
+
+---
+
+### 📬 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rawan-abdelkader-28a8092b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+[![Analog Devices](https://img.shields.io/badge/Analog%20Devices-FF0000?style=flat&logo=analogdevices&logoColor=white)](https://www.analog.com/)
+
+*Open to design/verification internships & hardware accelerator research opportunities*
+
+---
+
+<div align="center">
+  
+`$ git log --author="Rawan" --oneline | head -5`  
+```
+a1b2c3d fix: resolved metastability in async FIFO handshake
+e4f5g6h feat: added coverage groups for ALU corner cases
+i7j8k9l docs: verification plan for ML accelerator core
+m0n1o2p perf: 23% latency reduction in MAC pipeline
+q3r4s5t init: UVM environment for signed multiplier DUT
+```
+
+</div>
+```
