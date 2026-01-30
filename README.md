@@ -4,10 +4,8 @@
 **Electronics and Communication Engineer | E-JUST S'27**
 `Design Verification • HW Accelerators • ML Hardware`
 <br/><br/>
-  
-  [![Analog Devices](https://img.shields.io/badge/Analog%20Devices-FF0000?logo=analogdevices&logoColor=white&style=flat)](https://www.analog.com)
-  [![E-JUST](https://img.shields.io/badge/E--JUST-004080?logo=education&logoColor=white&style=flat)](https://www.ejust.edu.eg)
-  [![2027](https://img.shields.io/badge/Graduation-2027-0077B5?style=flat)]()
+  [![Analog Devices](https://img.shields.io/badge/Analog%20Devices-FF0000?logo=analogdevices&logoColor=white)](https://www.analog.com)
+  [![E-JUST](https://img.shields.io/badge/E--JUST-004080?logo=education&logoColor=white)](https://www.ejust.edu.eg)
 <br />
 
 <pre style="font-family:'Courier New', monospace; font-size: 14px; background: #0d1117; color: #58a6ff; padding: 15px; border: 1px solid #30363d; border-radius: 8px; line-height: 1.5; text-align: left;">
