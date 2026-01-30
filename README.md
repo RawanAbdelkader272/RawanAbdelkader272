@@ -1,79 +1,71 @@
 <div align="center">
 
 # RAWAN ABDELKADER
-### **Silicon & Verification Engineer | E-JUST Class of 2027**
-<span style="color:#FFD700; font-weight:bold;">Analog Devices GP Scholar</span>
+**Digital IC Design & Verification Engineer | E-JUST S'27**
+`Analog Devices GP Fellow • ML Hardware Architect • UVM Expert`
 
-<br><br>
+<br />
 
-<p align="center" style="font-size: 16px; color: #8b949e; max-width: 800px;">
-"Architecting the boundary between hardware efficiency and software flexibility.
-Focused on delivering <b>first-pass functional silicon</b> for high-performance compute and ML acceleration."
-</p>
-
-</div>
-
-<br>
+<pre style="font-family:'Courier New', monospace; font-size: 14px; background: #0d1117; color: #58a6ff; padding: 15px; border: 1px solid #30363d; border-radius: 8px; line-height: 1.2; text-align: left;">
+<b>TIME (ns)   SIGNAL NAME          VAL  TRACE</b>
+<hr style="border: 0.5px solid #30363d;">
+0           SYS_CLK              1    _|‾|_|‾|_|‾|_|‾|_|‾|_|‾|_|‾|_
+100         RESET_N              1    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+250         <font color="#00ff00">RAWAN_ACTIVE</font>         1    ______/‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+500         <b>DATA_BUS [63:0]</b>      VAL  ==&lt; <font color="#ffffff">RAWAN_ABDELKADER</font> &gt;========
+750         <font color="#ffcc00">SPONSOR_ADI</font>          1    ______________/‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+</pre>
 
 ---
 
-### 📡 Technical Specifications & Core Competencies
+</div>
 
-<table width="100%" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td width="50%" valign="top" style="border: none; padding-right: 20px;">
-      <h4 style="color: #58a6ff;">// THE SILICON FOUNDATION (RTL & Arch)</h4>
-      <p style="color: #c9d1d9;">Converting micro-architectural specifications into PPA-optimized RTL.</p>
-      <ul style="list-style-type: none; padding-left: 0;">
-        <li>🟣 <b>RTL Design:</b> SystemVerilog / Verilog</li>
-        <li>🟣 <b>Micro-architecture:</b> Datapath & Control path optimization</li>
-        <li>🟣 <b>Domain Focus:</b> HW Accelerators (ML/Matrix Ops)</li>
-        <li>🟣 <b>EDA Flow:</b> Vivado / Quartus Prime / QuestaSim / Linux Env</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top" style="border: none; padding-left: 20px; border-left: 1px solid #30363d;">
-      <h4 style="color: #7ee787;">// THE SOFTWARE ACCELERATION (DV & SW)</h4>
-      <p style="color: #c9d1d9;">Ensuring architectural integrity via advanced software-driven verification.</p>
-      <ul style="list-style-type: none; padding-left: 0;">
-        <li>🟢 <b>Verification Methodologies:</b> UVM (Universal Verification Methodology)</li>
-        <li>🟢 <b>Modern DV Flows:</b> cocotb (Python-based testing)</li>
-        <li>🟢 <b>Programming Fundamentals:</b> Strong <b>C++</b> & <b>Python</b> used for high-level modeling and automation.</li>
-        <li>🟢 <b>Key Metrics:</b> Coverage-Driven Verification (CDV) / Regression Testing</li>
-      </ul>
-    </td>
-  </tr>
+### 🏗️ Silicon Floorplan (Technical Domains)
+
+<table width="100%" style="border-collapse: collapse;">
+<tr>
+<td width="50%" style="border: 1px solid #30363d; padding: 15px;">
+<h4 style="color: #8b5cf6;">[0] RTL & ARCHITECTURE</h4>
+• <b>Core:</b> SystemVerilog, Verilog, VHDL<br>
+• <b>Micro-arch:</b> Pipelining, FSMs, Memory Interconnects<br>
+• <b>Accelerators:</b> ML Kernels, Systolic Arrays, MAC Units<br>
+• <b>PPA:</b> Area-efficient & Power-aware design logic
+</td>
+<td width="50%" style="border: 1px solid #30363d; padding: 15px;">
+<h4 style="color: #ef4444;">[1] FUNCTIONAL VERIFICATION (DV)</h4>
+• <b>Methodology:</b> UVM (Universal Verification Methodology)<br>
+• <b>TB Automation:</b> Python-based <b>cocotb</b> flows<br>
+• <b>Coverage:</b> Functional (Covergroups), Code, Assertions (SVA)<br>
+• <b>Regression:</b> Constraint-Random Stimulus & Scoreboarding
+</td>
+</tr>
+<tr>
+<td width="50%" style="border: 1px solid #30363d; padding: 15px;">
+<h4 style="color: #10b981;">[2] PROGRAMMING STACK</h4>
+• <b>Languages:</b> C++ (Strong), Python (Automation/Modeling)<br>
+• <b>Hardware Abstraction:</b> Algorithmic-to-RTL Mapping<br>
+• <b>Environment:</b> Linux/Bash, Makefile, Git Version Control<br>
+• <b>Math:</b> MATLAB/Simulink for Architectural Modeling
+</td>
+<td width="50%" style="border: 1px solid #30363d; padding: 15px;">
+<h4 style="color: #f59e0b;">[3] EDA INFRASTRUCTURE</h4>
+• <b>Simulation:</b> Siemens QuestaSim / ModelSim<br>
+• <b>FPGA Flows:</b> Xilinx Vivado, Intel Quartus Prime<br>
+• <b>Static Analysis:</b> Linting, CDC, Timing Analysis (STA)<br>
+• <b>Protocol:</b> AXI, APB, UART, SPI, I2C
+</td>
+</tr>
 </table>
 
-<br>
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 20px;">
-  <h4 style="margin-top: 0; color: #f0883e;">🚀 Strategic Focus: AI/ML Hardware Acceleration</h4>
-  <p style="color: #8b949e;">
-    Leveraging strong programming fundamentals in <b>C++ and Python</b> to bridge the gap between algorithmic requirements and hardware implementation. My goal is to architect scalable systolic arrays and optimize memory hierarchies for next-generation machine learning workloads, ensured by robust, scalable verification environments.
-  </p>
-</div>
-
-<br>
-
 ---
 
-<div align="center">
+### 🔬 Project_Report --sponsor=Analog_Devices
 
-### 🤝 Interface & Connectivity
+```bash
+$ cat graduation_project_status.log
 
-<p>
-<a href="https://www.linkedin.com/in/rawan-abdelkader-28a8092b2" style="text-decoration: none; margin-right: 20px;">
-  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="mailto:rawan.abdelkader2722@gmail.com" style="text-decoration: none;">
-  <img src="https://img.shields.io/badge/EMAIL-SEND_SIGNAL-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email">
-</a>
-</p>
-
-<br>
-
-<p style="font-size: 12px; color: #8b949e;">
-System Status: Active | Next Tape-out Target: 2027
-</p>
-
-</div>
+> [INFO] Initializing GP Workflow (Senior Year)...
+> [INFO] Industry Partner: Analog Devices (ADI)
+> [INFO] Focus Area: Hardware Acceleration for ML Inferencing
+> [INFO] Objective: Achieving 100% Coverage Closure on High-Speed Data Paths
+> [STATUS] Core Architecture: VALIDATED | Verification Plan: IN-PROGRESS
