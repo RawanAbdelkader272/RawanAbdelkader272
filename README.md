@@ -4,17 +4,6 @@
 **Electronics & Communication Engineer | E-JUST S'27**
 `Design Verification • HW Accelerators • ML Hardware`
 
-<br />
-
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Design+Verification+Engineer;HW+Accelerators+(ML);SystemVerilog+%2F+UVM;Analog+Devices+Sponsored+GP" />
-
-<br />
-
-### 📟 Digital Trace Simulation
-<p align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueXN6Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKVUn7iM8FMEU24/giphy.gif" width="400">
-</p>
-
 <pre align="left" style="font-family:'Courier New', monospace; background: #0d1117; color: #58a6ff; padding: 15px; border-radius: 8px; border: 1px solid #30363d;">
 <b>TIME (ns)   SIGNAL NAME         VAL  TRACE</b>
 <hr>
