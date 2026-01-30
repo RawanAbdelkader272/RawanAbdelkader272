@@ -1,26 +1,25 @@
 <div align="center">
 
 # Hi! 👋🏻 I'm Rawan Abdelkader
-**Electronics & Communication Engineer | E-JUST S'27**
+**Electronics and Communication Engineer | E-JUST S'27**
 `Design Verification • HW Accelerators • ML Hardware`
 
-<pre align="left" style="font-family:'Courier New', monospace; background: #0d1117; color: #58a6ff; padding: 15px; border-radius: 8px; border: 1px solid #30363d;">
-<b>TIME (ns)   SIGNAL NAME         VAL  TRACE</b>
-<hr>
-0           SYS_CLK             1    _|‾|_|‾|_|‾|_|‾|_|‾|_
-100         RESET_N             1    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-250         RAWAN_ACTIVE        1    ______/‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-500         DATA_OUT [63:0]     VAL  ==&lt; RAWAN_ABDELKADER &gt;
+<br />
+
+<div align="left" style="display: inline-block; background: #0d1117; padding: 25px; border: 2px solid #30363d; border-radius: 12px; box-shadow: 10px 10px 0px #21262d;">
+
+<pre style="font-family:'Courier New', monospace; font-size: 15px; color: #c9d1d9; line-height: 1.6; margin: 0;">
+<b style="color: #58a6ff;">TIME (ns)   SIGNAL NAME         VAL   TRACE</b>
+<hr style="border: 0.5px solid #30363d; margin: 10px 0;">
+0           SYS_CLK             1     <span style="color: #58a6ff;">_|‾|_|‾|_|‾|_|‾|_|‾|_|‾|_</span>
+100         RESET_N             1     <span style="color: #ff7b72;">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span>
+250         <b style="color: #3fb950;">RAWAN_ACTIVE</b>        1     <span style="color: #3fb950;">______/‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span>
+500         <b style="color: #ffffff;">DATA_OUT [63:0]</b>     VAL   <span style="color: #ffffff;">==&lt; RAWAN_ABDELKADER &gt;===</span>
+750         <b style="color: #d29922;">AD_SPONSORED_GP</b>     1     <span style="color: #d29922;">______________/‾‾‾‾‾‾‾‾‾‾</span>
 </pre>
 
----
+<br />
 
-### 🛠 Tech Stack & Tools
-<p align="left">
-<img src="https://img.shields.io/badge/Verilog-%23F16622.svg?style=for-the-badge&logo=cpu&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
+---
 
 </div>
