@@ -6,20 +6,30 @@
 
 <br />
 
-<div align="left" style="display: inline-block; background: #0d1117; padding: 25px; border: 2px solid #30363d; border-radius: 12px; box-shadow: 10px 10px 0px #21262d;">
 
-<pre style="font-family:'Courier New', monospace; font-size: 15px; color: #c9d1d9; line-height: 1.6; margin: 0;">
-<b style="color: #58a6ff;">TIME (ns)   SIGNAL NAME         VAL   TRACE</b>
-<hr style="border: 0.5px solid #30363d; margin: 10px 0;">
-0           SYS_CLK             1     <span style="color: #58a6ff;">_|‾|_|‾|_|‾|_|‾|_|‾|_|‾|_</span>
-100         RESET_N             1     <span style="color: #ff7b72;">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span>
-250         <b style="color: #3fb950;">RAWAN_ACTIVE</b>        1     <span style="color: #3fb950;">______/‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span>
-500         <b style="color: #ffffff;">DATA_OUT [63:0]</b>     VAL   <span style="color: #ffffff;">==&lt; RAWAN_ABDELKADER &gt;===</span>
-750         <b style="color: #d29922;">AD_SPONSORED_GP</b>     1     <span style="color: #d29922;">______________/‾‾‾‾‾‾‾‾‾‾</span>
+
+<pre style="font-family:'Courier New', monospace; font-size: 14px; background: #0d1117; color: #58a6ff; padding: 15px; border: 1px solid #30363d; border-radius: 8px; line-height: 1.5; text-align: left;">
+
+<b>TIME (ns)   SIGNAL NAME          VAL  TRACE</b>
+
+<hr style="border: 0.5px solid #30363d;">
+
+0           SYS_CLK              1    _|‾|_|‾|_|‾|_|‾|_|‾|_|‾|_|‾|_
+
+100         RESET_N              1    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+250         <font color="#00ff00">RAWAN_ACTIVE</font>         1    ______/‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+500         <b>DATA_OUT [63:0]</b>      VAL  <font color="#ffffff">==&lt; RAWAN_ABDELKADER &gt;=======</font>
+
+750         <font color="#ffcc00">GRADUATION_EN</font>        1    ______________/‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
 </pre>
 
-<br />
+
 
 ---
+
+
 
 </div>
