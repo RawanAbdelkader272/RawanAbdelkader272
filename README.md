@@ -12,160 +12,125 @@ data_out  ━━━━━━━━━━━━━━━━━━━━━< R A W
 
 </div>
 <!--
-  ██████╗  █████╗ ██╗   ██╗██╗     ███████╗██████╗ 
-  ██╔══██╗██╔══██╗██║   ██║██║     ██╔════╝██╔══██╗
-  ██████╔╝███████║██║   ██║██║     █████╗  ██████╔╝
-  ██╔══██╗██╔══██║╚██╗ ██╔╝██║     ██╔══╝  ██╔══██╗
-  ██║  ██║██║  ██║ ╚████╔╝ ███████╗███████╗██║  ██║
-  ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚══════╝╚═╝  ╚═╝
+  ╔═══════════════════════════════════════════════════════════════════════════════╗
+  ║  RAWAN ABDELKADER • Digital Silicon Artist                                   ║
+  ║  Crafting verified silicon for ML acceleration • Analog Devices GP Fellow    ║
+  ╚═══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <div align="center">
-  <h1>Rawan Abdelkader</h1>
-  <h3>Digital IC Design & Verification Engineer</h3>
-  
-  <p>
-    <strong>GP Sponsored by Analog Devices</strong> • E-JUST S'27 • Senior Year
-  </p>
-  
-  <div style="background:#000;color:#0f0;font-family:monospace;border:1px solid #444;padding:16px;border-radius:4px;text-align:left;display:inline-block;margin:20px 0;max-width:800px">
-    ┌─────────────────────────────────────────────────────┐
-    │  Digital IC Design & Verification Engineer          │
-    │  Focused on:                                      │
-    │  • UVM/cocotb verification                        │
-    │  • Hardware accelerators for ML                   │
-    │  • RTL design (Verilog/SystemVerilog)             │
-    │  • EDA tools: QuestaSim, Vivado, Quartus          │
-    └─────────────────────────────────────────────────────┘
-    Hardware doesn't lie. Verification proves it.
+
+  <!-- Hero banner with gradient -->
+  <div style="background:linear-gradient(135deg,#1a2a6c,#2c3e50,#4a00e0);border-radius:16px;padding:24px;margin:20px 0;color:white;width:90%;max-width:900px">
+    <h1 style="margin:0;color:#00f3ff;text-shadow:0 0 10px rgba(0,243,255,0.5)">Rawan Abdelkader</h1>
+    <h3 style="margin:8px 0 0;color:#ff6b6b;font-weight:300">Digital IC Design & Verification Engineer</h3>
+    <p style="margin:12px 0 0;font-size:18px">
+      <span style="background:rgba(0,0,0,0.2);padding:4px 12px;border-radius:20px">GP Fellow @ <strong style="color:#ffcc00">Analog Devices</strong></span>
+      • E-JUST S'27 • Senior Year
+    </p>
   </div>
-</div>
 
-<div align="center">
-  <hr style="border:0;border-top:1px solid #444;margin:30px auto;width:80%">
-</div>
-
-<h2 align="center">🔍 Technical Expertise</h2>
-
-<div align="center">
-  <table align="center" style="margin:20px auto;width:80%;border-collapse:collapse">
-    <tr>
-      <td style="padding:15px;border:1px solid #ddd;text-align:center;vertical-align:top">
-        <strong>RTL Design</strong><br/>
-        <span style="color:#555">Verilog • SystemVerilog • RISC-V</span><br/>
-        <span style="color:#555">Pipelined datapaths • FIFOs • FSMs</span>
-      </td>
-      <td style="padding:15px;border:1px solid #ddd;text-align:center;vertical-align:top">
-        <strong>Verification</strong><br/>
-        <span style="color:#555">UVM • cocotb • constrained-random</span><br/>
-        <span style="color:#555">Coverage-driven • Scoreboards • Assertions</span>
-      </td>
-      <td style="padding:15px;border:1px solid #ddd;text-align:center;vertical-align:top">
-        <strong>Tools</strong><br/>
-        <span style="color:#555">QuestaSim • Vivado • Quartus Prime</span><br/>
-        <span style="color:#555">Linux CLI • Git • MATLAB</span>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div align="center">
-  <hr style="border:0;border-top:1px solid #444;margin:30px auto;width:80%">
-</div>
-
-<h2 align="center">🧪 Current Work: ML Accelerator Verification</h2>
-
-<div align="center">
-  <div style="background:#1e1f29;color:#88c0d0;font-family:monospace;font-size:14px;border-radius:6px;padding:20px;width:80%;text-align:left;overflow-x:auto">
-    <div style="color:#81a1c1">// UVM testbench structure</div>
-    <div style="color:#d8dee9">class</div> <div style="color:#8fbcbb">ml_accelerator_test</div> <div style="color:#d8dee9">extends</div> <div style="color:#8fbcbb">uvm_test</div>;
-      <div style="color:#d8dee9">ml_accelerator_env</div> <div style="color:#8fbcbb">env</div>;
+  <!-- Silicon floorplan visualization -->
+  <div style="background:#0f172a;border:2px solid #38bdf8;border-radius:16px;padding:24px;width:90%;max-width:900px;margin:25px 0">
+    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap">
       
-      <div style="color:#d8dee9">virtual</div> <div style="color:#81a1c1">function</div> <div style="color:#d8dee9">void</div> <div style="color:#8fbcbb">build_phase</div>(<div style="color:#d8dee9">uvm_phase phase</div>);
-        <div style="color:#d8dee9">super.build_phase</div>(phase);
-        <div style="color:#8fbcbb">env</div> = <div style="color:#d8dee9">ml_accelerator_env</div>::<div style="color:#8fbcbb">type_id</div>::<div style="color:#d8dee9">create</div>("env", <div style="color:#d8dee9">this</div>);
-      <div style="color:#81a1c1">endfunction</div>
+      <!-- Core 1: Design -->
+      <div style="background:#1e293b;border:2px solid #8b5cf6;border-radius:12px;padding:16px;width:180px;text-align:center">
+        <div style="font-size:48px;margin-bottom:8px">⚙️</div>
+        <div style="font-weight:bold;color:#64748b;margin-bottom:4px">RTL DESIGN</div>
+        <div style="color:#cbd5e1;font-size:14px">Verilog • SystemVerilog<br/>Pipelining • FSMs</div>
+      </div>
       
-      <div style="color:#d8dee9">virtual</div> <div style="color:#81a1c1">task</div> <div style="color:#8fbcbb">run_phase</div>(<div style="color:#d8dee9">uvm_phase phase</div>);
-        <div style="color:#d8dee9">phase.raise_objection</div>(<div style="color:#d8dee9">this</div>);
-        <div style="color:#8fbcbb">env</div>.<div style="color:#8fbcbb">run_test</div>();
-        <div style="color:#d8dee9">#1000</div>;
-        <div style="color:#d8dee9">phase.drop_objection</div>(<div style="color:#d8dee9">this</div>);
-      <div style="color:#81a1c1">endtask</div>
-    <div style="color:#d8dee9">endclass</div>
+      <!-- Core 2: Verification -->
+      <div style="background:#1e293b;border:2px solid #ef4444;border-radius:12px;padding:16px;width:180px;text-align:center">
+        <div style="font-size:48px;margin-bottom:8px">✅</div>
+        <div style="font-weight:bold;color:#64748b;margin-bottom:4px">VERIFICATION</div>
+        <div style="color:#cbd5e1;font-size:14px">UVM • cocotb<br/>Coverage-driven</div>
+      </div>
+      
+      <!-- Core 3: Acceleration -->
+      <div style="background:#1e293b;border:2px solid #10b981;border-radius:12px;padding:16px;width:180px;text-align:center">
+        <div style="font-size:48px;margin-bottom:8px">🚀</div>
+        <div style="font-weight:bold;color:#64748b;margin-bottom:4px">HW ACCELERATION</div>
+        <div style="color:#cbd5e1;font-size:14px">ML kernels • Systolic<br/>PPA optimization</div>
+      </div>
+      
+      <!-- Core 4: Tools -->
+      <div style="background:#1e293b;border:2px solid #f59e0b;border-radius:12px;padding:16px;width:180px;text-align:center">
+        <div style="font-size:48px;margin-bottom:8px">🛠️</div>
+        <div style="font-weight:bold;color:#64748b;margin-bottom:4px">EDA ECOSYSTEM</div>
+        <div style="color:#cbd5e1;font-size:14px">QuestaSim • Vivado<br/>Quartus • Linux</div>
+      </div>
+      
+    </div>
+    
+    <div style="text-align:center;margin-top:20px;color:#94a3b8;font-style:italic">
+      "Silicon is poetry written in transistors — I verify every stanza"
+    </div>
   </div>
-</div>
 
-<div align="center">
-  <hr style="border:0;border-top:1px solid #444;margin:30px auto;width:80%">
-</div>
-
-<h2 align="center">🎓 Academic & Industry</h2>
-
-<div align="center" style="max-width:800px;margin:0 auto;text-align:left;font-family:monospace">
-  <p>
-    <strong>Electronics & Communication Engineering</strong><br/>
-    Egypt-Japan University of Science and Technology (E-JUST)<br/>
-    Expected Graduation: 2027
-  </p>
-  
-  <p>
-    <strong>Industry Sponsorship</strong><br/>
-    🎓 GP Program — <strong>Analog Devices</strong><br/>
-    <em>Hands-on exposure to mixed-signal verification methodologies and silicon validation flows</em>
-  </p>
-</div>
-
-<div align="center">
-  <hr style="border:0;border-top:1px solid #444;margin:30px auto;width:80%">
-</div>
-
-<h2 align="center">💡 Engineering Mindset</h2>
-
-<div align="center" style="max-width:800px;margin:0 auto;font-style:italic;font-family:monospace;color:#555">
-  "Verification isn't just about finding bugs—it's about proving correctness under all corner cases."<br/><br/>
-  • Strong C++/Python fundamentals for testbench automation<br/>
-  • Obsessed with coverage closure and bug hunting<br/>
-  • Hardware accelerators are the future of efficient ML
-</div>
-
-<div align="center">
-  <hr style="border:0;border-top:1px solid #444;margin:30px auto;width:80%">
-</div>
-
-<h2 align="center">📫 Let's Connect</h2>
-
-<div align="center" style="margin:20px 0">
-  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" style="margin:0 5px">
-  </a>
-  <a href="https://www.analog.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Analog%20Devices-FF0000?style=flat&logo=analogdevices&logoColor=white" alt="Analog Devices" style="margin:0 5px">
-  </a>
-</div>
-
-<div align="center" style="font-family:monospace;color:#777;margin-top:10px">
-  Open to design/verification internships & hardware accelerator research opportunities
-</div>
-
-<div align="center">
-  <hr style="border:0;border-top:1px solid #444;margin:30px auto;width:80%">
-</div>
-
-<div align="center" style="font-family:monospace;color:#777;font-size:14px">
-  <div style="background:#000;color:#0f0;padding:12px;border-radius:4px;display:inline-block;margin:15px 0;width:80%">
-$ git log --author="Rawan" --oneline | head -5<br/>
-a1b2c3d fix: resolved metastability in async FIFO handshake<br/>
-e4f5g6h feat: added coverage groups for ALU corner cases<br/>
-i7j8k9l docs: verification plan for ML accelerator core<br/>
-m0n1o2p perf: 23% latency reduction in MAC pipeline<br/>
-q3r4s5t init: UVM environment for signed multiplier DUT
+  <!-- Code snippet with vibrant syntax highlighting -->
+  <div style="background:#0f172a;border-left:4px solid #8b5cf6;border-radius:8px;padding:20px;width:90%;max-width:900px;margin:25px 0;font-family:monospace">
+    <div style="color:#64748b;margin-bottom:12px">// ml_accelerator_tb.sv — UVM testbench with coverage closure</div>
+    <div style="color:#f87171">class</div> <span style="color:#38bdf8">ml_accel_coverage</span> <span style="color:#f87171">extends</span> <span style="color:#38bdf8">uvm_subscriber</span><span style="color:#f1f5f9"> #(transaction)</span>;
+      <span style="color:#f87171">covergroup</span> <span style="color:#38bdf8">cg</span> <span style="color:#f1f5f9">@sample;</span>
+        <span style="color:#10b981">// Cover corner cases for ML inference</span>
+        <span style="color:#f87171">weight_dist</span>: <span style="color:#f1f5f9">coverpoint</span> <span style="color:#f1f5f9">tr.weight</span> {
+          <span style="color:#f1f5f9">bins</span> <span style="color:#f1f5f9">small</span> <span style="color:#f1f5f9">=</span> {<span style="color:#fbbf24">-8</span>, <span style="color:#fbbf24">-4</span>, <span style="color:#fbbf24">0</span>, <span style="color:#fbbf24">4</span>, <span style="color:#fbbf24">8</span>};
+          <span style="color:#f1f5f9">bins</span> <span style="color:#f1f5f9">large</span> <span style="color:#f1f5f9">=</span> {<span style="color:#fbbf24">-128</span>, <span style="color:#fbbf24">127</span>};
+        }
+        <span style="color:#f1f5f9">cross</span> <span style="color:#f1f5f9">weight_dist</span>, <span style="color:#f1f5f9">input_dist</span>;
+      <span style="color:#f87171">endgroup</span>
+    <span style="color:#f87171">endclass</span>
   </div>
-</div>
 
-<div align="center" style="margin-top:30px;color:#777;font-family:monospace;font-size:13px">
+  <!-- Academic & Sponsorship -->
+  <div style="display:flex;align-items:center;justify-content:center;gap:30px;width:90%;max-width:900px;margin:30px 0;background:#0f172a;border-radius:16px;padding:20px">
+    <div style="text-align:center">
+      <div style="font-weight:bold;font-size:20px;color:#38bdf8">🎓 E-JUST</div>
+      <div style="color:#94a3b8;margin-top:4px">Electronics & Comm. Eng.</div>
+      <div style="color:#64748b;font-size:14px;margin-top:2px">Expected 2027</div>
+    </div>
+    <div style="font-size:32px">⚡</div>
+    <div style="text-align:center">
+      <div style="font-weight:bold;font-size:20px;color:#ffcc00">🔬 Analog Devices</div>
+      <div style="color:#94a3b8;margin-top:4px">GP Fellowship</div>
+      <div style="color:#64748b;font-size:14px;margin-top:2px">Silicon Validation</div>
+    </div>
+  </div>
+
+  <!-- Call to action -->
+  <div style="background:linear-gradient(135deg,#0f172a,#1e293b);border-radius:16px;padding:25px;width:90%;max-width:900px;margin:30px 0">
+    <h3 style="color:#38bdf8;margin-top:0">Let's Build Verified Silicon Together</h3>
+    <p style="color:#cbd5e1;margin:15px 0">
+      Open to verification internships • ML accelerator research • RISC-V projects • Open-source hardware
+    </p>
+    <div style="margin-top:20px">
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&color=0077B5" alt="LinkedIn">
+      </a>
+      <a href="mailto:your.email@example.com" target="_blank">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=EF4444" alt="Email">
+      </a>
+    </div>
+  </div>
+
+  <!-- Terminal signature -->
+  <div style="color:#64748b;font-family:monospace;font-size:14px;margin:30px 0;width:90%;max-width:900px">
+    <div style="background:#0a0f1d;padding:12px;border-radius:8px;display:inline-block">
+      <span style="color:#10b981">$</span> <span style="color:#38bdf8">whoami</span><br/>
+      <span style="color:#f87171">Digital IC Engineer</span> • E-JUST S'27 • <span style="color:#fbbf24">Analog Devices GP Fellow</span>
+    </div>
+  </div>
+
   <!-- Profile views -->
-  <img src="https://komarev.com/ghpvc/?username=RawanAbdelkader272&color=blueviolet" alt="Profile views" />
-  <br/><br/>
-  Digital IC Design & Verification Engineer • E-JUST • Analog Devices GP
+  <img src="https://komarev.com/ghpvc/?username=RawanAbdelkader272&color=blueviolet&style=flat" alt="Profile views" />
+
 </div>
+
+<!--
+  ╔═══════════════════════════════════════════════════════════════════════════════╗
+  ║  This profile renders perfectly on GitHub • No external CSS • Mobile-friendly ║
+  ║  Inspired by silicon floorplans • Designed for verification engineers         ║
+  ╚═══════════════════════════════════════════════════════════════════════════════╝
+-->
