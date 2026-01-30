@@ -6,9 +6,32 @@
 
 <br />
 
-### 📟RUNNING...
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=180&section=header&text=TIME%20(ns)%20%20%20SIGNAL%20NAME%20%20%20%20%20%20%20VAL%20%20TRACE%20%20%20%20%20%20%20%20%20%20%20%20%0A0%20%20%20%20%20%20%20%20%20%20%20SYS_CLK%20%20%20%20%20%20%20%20%20%20%20%20%201%20%20%20%20_%7C%E2%80%BE%7C_%7C%E2%80%BE%7C_%7C%E2%80%BE%7C_%0A100%20%20%20%20%20%20%20%20%20RESET_N%20%20%20%20%20%20%20%20%20%20%20%20%201%20%20%20%20%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%0A250%20%20%20%20%20%20%20%20%20RAWAN_ACTIVE%20%20%20%20%20%20%20%201%20%20%20%20______/%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%0A500%20%20%20%20%20%20%20%20%20DATA_OUT%20[63:0]%20%20%20%20%20VAL%20%20%3D%3D%3C%20RAWAN_ABDELKADER%20%3E%3D%0A750%20%20%20%20%20%20%20%20%20GRADUATION_EN%20%20%20%20%20%20%201%20%20%20%20______________/%E2%80%BE&fontSize=14&fontAlign=20&fontAlignY=50&fontColor=58a6ff&animation=fadeIn" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Design+Verification+Engineer;HW+Accelerators+(ML);SystemVerilog+%2F+UVM;Analog+Devices+Sponsored+GP" />
 
 <br />
+
+### 📟 Digital Trace Simulation
+<p align="center">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueXN6Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKVUn7iM8FMEU24/giphy.gif" width="400">
+</p>
+
+<pre align="left" style="font-family:'Courier New', monospace; background: #0d1117; color: #58a6ff; padding: 15px; border-radius: 8px; border: 1px solid #30363d;">
+<b>TIME (ns)   SIGNAL NAME         VAL  TRACE</b>
+<hr>
+0           SYS_CLK             1    _|‾|_|‾|_|‾|_|‾|_|‾|_
+100         RESET_N             1    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+250         RAWAN_ACTIVE        1    ______/‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+500         DATA_OUT [63:0]     VAL  ==&lt; RAWAN_ABDELKADER &gt;
+</pre>
+
 ---
+
+### 🛠 Tech Stack & Tools
+<p align="left">
+<img src="https://img.shields.io/badge/Verilog-%23F16622.svg?style=for-the-badge&logo=cpu&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
+
 </div>
