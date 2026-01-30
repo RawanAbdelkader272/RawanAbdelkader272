@@ -3,6 +3,11 @@
 # Hi! 👋🏻 I'm Rawan Abdelkader
 **Electronics and Communication Engineer | E-JUST S'27**
 `Design Verification • HW Accelerators • ML Hardware`
+<br/><br/>
+  
+  [![Analog Devices](https://img.shields.io/badge/Analog%20Devices-FF0000?logo=analogdevices&logoColor=white&style=flat)](https://www.analog.com)
+  [![E-JUST](https://img.shields.io/badge/E--JUST-004080?logo=education&logoColor=white&style=flat)](https://www.ejust.edu.eg)
+  [![2027](https://img.shields.io/badge/Graduation-2027-0077B5?style=flat)]()
 <br />
 
 <pre style="font-family:'Courier New', monospace; font-size: 14px; background: #0d1117; color: #58a6ff; padding: 15px; border: 1px solid #30363d; border-radius: 8px; line-height: 1.5; text-align: left;">
@@ -17,9 +22,25 @@
 
 ---
 
-<br />
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=600&size=20&pause=200&color=58A6FF&center=true&vCenter=true&width=700&height=200&lines=TIME+(ns)+++SIGNAL+NAME+++++++VAL++TRACE;-----------------------------------------;0+++++++++++SYS_CLK+++++++++++++1++++_|%E2%80%BE|_|%E2%80%BE|_|%E2%80%BE|;100+++++++++RESET_N+++++++++++++1++++%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE;250+++++++++RAWAN_ACTIVE+++++++++1++++______/%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE%E2%80%BE;500+++++++++DATA_OUT+[63:0]+++++VAL++++%3D%3D%3C+RAWAN_ABDELKADER+%3E%3D%3D;750+++++++++AD_SPONSORED_GP+++++++1++++____________/%E2%80%BE%E2%80%BE" alt="Waveform Simulation" />
 
-<br />
+
+## 📬 Connect
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/yourprofile)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=flat)](mailto:your.email@example.com)
+
+<br/>
+
+*Open to hardware design/verification roles • ML accelerator research*
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=RawanAbdelkader272&color=646464" />
 </div>
